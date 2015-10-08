@@ -1,0 +1,30 @@
+# Part of Elektor project 150308 eRIC Nitro.
+# Fuse & lock bit settings for ATmega328P-AU.
+# Read back from MCU with Atmel Studio 6.2.
+# To be used with bootloader optiboot_eric_nitro.hex
+
+#=== Fuse bits ===
+
+BODLEVEL = 2V7
+RSTDISBL = [ ]
+DWEN = [ ]
+SPIEN = [X]
+WDTON = [ ]
+EESAVE = [ ]
+BOOTSZ = 256W_3F00
+BOOTRST = [X]
+CKDIV8 = [ ]
+CKOUT = [ ]
+SUT_CKSEL = EXTXOSC_8MHZ_XX_16KCK_14CK_65MS
+
+EXTENDED = 0xFD (valid)
+HIGH = 0xDE (valid)
+LOW = 0xFF (valid)
+
+#=== Lock bits ===
+
+LB = NO_LOCK
+BLB0 = NO_LOCK
+BLB1 = NO_LOCK
+
+LOCKBIT = 0xFF (valid)
