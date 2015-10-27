@@ -204,7 +204,7 @@
 <text x="-9.7028" y="2.3876" size="0.6604" layer="21" font="vector">P11</text>
 <text x="-12.2682" y="2.3876" size="0.6604" layer="21" font="vector">RST</text>
 <text x="-14.5288" y="2.3876" size="0.6604" layer="21" font="vector">P8</text>
-<text x="16.9418" y="10.3632" size="0.8128" layer="21" font="vector" rot="R90">&gt;copyright</text>
+<text x="17.4498" y="8.2042" size="1.016" layer="21" font="vector" rot="R90">&gt;copyright</text>
 <text x="27.7876" y="12.9794" size="0.8128" layer="21" font="vector" rot="R90">+5V</text>
 <text x="23.241" y="10.795" size="5.08" layer="22" font="vector" ratio="15" rot="MR0">eRIC NiTrO</text>
 <wire x1="-5.08" y1="0" x2="-5.08" y2="3.81" width="0.3048" layer="22"/>
@@ -214,16 +214,14 @@
 <dimension x1="-24.765" y1="25.3875" x2="30.46" y2="25.3875" x3="2.8475" y3="26.797" textsize="1.6764" textratio="15" layer="47"/>
 <dimension x1="-24.765" y1="0" x2="-24.765" y2="25.4" x3="-26.162" y3="12.7" textsize="1.6764" textratio="15" layer="47"/>
 <dimension x1="29.21" y1="24.13" x2="29.21" y2="1.27" x3="34.036" y3="12.7" textsize="1.6764" textratio="15" layer="47"/>
-<text x="3.429" y="21.209" size="0.8128" layer="22" font="vector" rot="MR0">PCB design by</text>
 <dimension x1="29.21" y1="1.27" x2="29.21" y2="6.35" x3="37.338" y3="3.81" textsize="1.778" textratio="10" layer="47"/>
 <text x="22.098" y="18.542" size="1.27" layer="22" font="vector" rot="MR0">eRIC by LPRS</text>
-<text x="-15.748" y="5.207" size="0.8128" layer="22" font="vector" rot="MR180">open hardware</text>
-<text x="21.1582" y="17.5006" size="0.8128" layer="21" font="vector" rot="R90">D</text>
+<text x="21.1582" y="17.5006" size="0.8128" layer="21" font="vector" rot="R90">1</text>
 <text x="21.1582" y="15.0876" size="0.8128" layer="21" font="vector" rot="R90">X</text>
 <text x="-22.4536" y="1.9304" size="0.8128" layer="21" font="vector" rot="R90">EU: OPEN</text>
-<text x="-19.4564" y="1.778" size="0.8128" layer="21" font="vector">eRIC9</text>
-<text x="-24.3332" y="0.9398" size="0.8128" layer="22" font="vector" rot="MR90">eRIC4: 433 MHz
-eRIC9: 868/915 MHz (JP1)</text>
+<text x="-19.4564" y="1.778" size="0.8128" layer="21" font="vector">ERIC9</text>
+<text x="-24.3332" y="0.9398" size="0.8128" layer="22" font="vector" rot="MR90">ERIC4: 433 MHz
+ERIC9: 868/915 MHz (JP1)</text>
 <text x="-23.4442" y="1.9558" size="0.8128" layer="21" font="vector" rot="R90">US: CLOSE</text>
 <circle x="26.162" y="9.144" radius="0.127" width="0.254" layer="21"/>
 <circle x="27.432" y="11.811" radius="0.127" width="0.254" layer="21"/>
@@ -394,28 +392,6 @@ eRIC9: 868/915 MHz (JP1)</text>
 <rectangle x1="-1.4286" y1="3.556" x2="-0.9714" y2="4.5466" layer="51"/>
 <rectangle x1="-2.2286" y1="3.556" x2="-1.7714" y2="4.5466" layer="51"/>
 <rectangle x1="-3.0286" y1="3.556" x2="-2.5714" y2="4.5466" layer="51"/>
-</package>
-<package name="SOT23-5">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
-<wire x1="-0.2684" y1="0.8104" x2="0.2684" y2="0.8104" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
-<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
-<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
-<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
 </packages>
 </library>
@@ -2220,6 +2196,28 @@ C&amp;K Components, AYZ0203</description>
 <text x="-0.889" y="1.27" size="0.4064" layer="25">&gt;Name</text>
 <text x="-0.889" y="-1.524" size="0.4064" layer="27">&gt;Value</text>
 </package>
+<package name="SOT23-5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.2684" y1="0.8104" x2="0.2684" y2="0.8104" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="_Elektor2a">
@@ -2666,19 +2664,19 @@ Your Eurocircuits Team
 </autorouter>
 <elements>
 <element name="ANT" library="150308-1-eRIC-Nitro" package="1X01-080" value="" x="-19.685" y="21.844" smashed="yes" rot="R90">
-<attribute name="NAME" x="-20.1422" y="20.9042" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="-20.1422" y="20.9042" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="-16.51" y="20.574" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C1" library="SparkFun" package="0603-CAP" value="100nF" x="10.795" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.6492" y="5.0546" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="12.6492" y="5.0546" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="11.938" y="4.064" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="C6" library="SparkFun" package="0603-CAP" value="100nF" x="20.32" y="6.35" smashed="yes">
-<attribute name="NAME" x="18.5166" y="7.1628" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="18.5166" y="7.1628" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="19.304" y="5.207" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="C7" library="150308-1-eRIC-Nitro" package="EIA3216" value="10uF 16V" x="19.685" y="4.445" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.2466" y="5.2484" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="17.2466" y="5.2484" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="19.277" y="3.113" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="C8" library="150308-1-eRIC-Nitro" package="EIA3216" value="10uF 16V" x="25.4" y="4.445" smashed="yes">
@@ -2686,28 +2684,28 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="25.808" y="5.777" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="C2" library="SparkFun" package="0603-CAP" value="100nF" x="24.13" y="10.16" smashed="yes">
-<attribute name="NAME" x="20.9042" y="9.3218" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="20.9042" y="9.3218" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="23.114" y="9.017" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="C3" library="SparkFun" package="0603-CAP" value="100nF" x="10.795" y="19.05" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.6746" y="17.5768" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="12.6746" y="17.5768" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="9.652" y="20.066" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="C5" library="SparkFun" package="0603-CAP" value="100nF" x="-20.955" y="12.065" smashed="yes" rot="R270">
-<attribute name="NAME" x="-21.7932" y="11.176" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="-21.7932" y="11.176" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="-22.098" y="13.081" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="C4" library="SparkFun" package="0603-CAP" value="100nF" x="6.985" y="4.445" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.334" y="4.953" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="5.334" y="4.953" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="8.001" y="5.588" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D2" library="150308-1-eRIC-Nitro" package="SOD-523" value="RB751" x="19.05" y="13.335" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="DIO-11018" x="19.05" y="13.335" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="19.5072" y="14.5034" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="19.5072" y="14.5034" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="21.59" y="12.065" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="LED1" library="150308-1-eRIC-Nitro" package="0603-LED-ALT1" value="Green" x="0.381" y="12.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="-0.1397" y="11.3538" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="-0.1397" y="11.3538" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="-0.6985" y="13.716" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="D1" library="150308-1-eRIC-Nitro" package="SOD-523" value="RB751" x="26.797" y="11.176" smashed="yes">
@@ -2716,97 +2714,97 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="25.527" y="8.636" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="MOD1" library="eRIC-Nitro" package="ERIC" value="eRIC" x="-17.78" y="3.81" smashed="yes">
-<attribute name="NAME" x="-18.5928" y="15.6464" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="-18.5928" y="15.6464" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-13.97" y="15.24" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="K6" library="150308-1-eRIC-Nitro" package="SMA-EDGE" value="SMA_EDGE" x="-22.733" y="19.304" smashed="yes" rot="R90">
-<attribute name="NAME" x="-22.3266" y="18.3134" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="-22.3266" y="18.3134" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="-21.463" y="26.924" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="K4" library="150308-1-eRIC-Nitro" package="1X06" value="FTDI Basic" x="29.21" y="6.35" smashed="yes" rot="MR90">
-<attribute name="NAME" x="27.5082" y="13.7922" size="1.016" layer="26" font="vector" rot="MR270"/>
+<attribute name="NAME" x="29.5402" y="22.1742" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="26.035" y="5.08" size="0.8128" layer="28" font="vector" ratio="10" rot="MR90"/>
 </element>
 <element name="K5" library="150308-1-eRIC-Nitro" package="1X04" value="" x="-6.35" y="1.27" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-5.5118" y="2.8448" size="1.016" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="-5.5118" y="2.8448" size="0.8128" layer="26" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="-5.08" y="-1.905" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="K3" library="150308-1-eRIC-Nitro" package="1X02" value="" x="-1.27" y="1.27" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-0.4318" y="2.8448" size="1.016" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="-0.4318" y="2.8448" size="0.8128" layer="26" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="0" y="-1.905" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="FID1" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="29.337" y="21.463" smashed="yes" rot="R90"/>
+<element name="FID1" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="25.4" y="23.241" smashed="yes" rot="R90"/>
 <element name="K2" library="150308-1-eRIC-Nitro" package="1X12" value="M12PTH" x="29.21" y="1.27" smashed="yes" rot="MR0">
-<attribute name="NAME" x="30.0482" y="2.8448" size="1.016" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="30.0482" y="2.8448" size="0.8128" layer="26" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="30.48" y="-1.905" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="K1" library="150308-1-eRIC-Nitro" package="1X12" value="M12PTH" x="1.27" y="24.13" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-0.4318" y="23.9268" size="1.016" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="-0.4318" y="23.9268" size="0.8128" layer="26" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="0" y="27.305" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="FID2" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="-23.622" y="1.143" smashed="yes" rot="R90"/>
 <element name="JP1" library="150308-1-eRIC-Nitro" package="1X02" value="" x="-20.955" y="5.715" smashed="yes" rot="R270">
-<attribute name="NAME" x="-22.4282" y="0.5588" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="-22.0472" y="0.6858" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="-24.13" y="6.985" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="L1" library="SparkFun-Passives" package="0603" value="10uH" x="6.985" y="5.715" smashed="yes">
-<attribute name="NAME" x="5.334" y="6.223" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="5.334" y="6.223" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="5.969" y="4.572" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="X1" library="150308-1-eRIC-Nitro" package="RESONATOR-SMD" value="8MHz" x="7.62" y="19.05" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.525" y="21.2852" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="9.525" y="21.2852" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="8.5725" y="20.6375" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0603-RES" value="100R" x="15.113" y="20.193" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.7894" y="18.8468" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="16.7894" y="19.4818" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="16.256" y="19.177" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R7" library="SparkFun" package="0603-RES" value="10k" x="20.955" y="11.049" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.4818" y="10.9982" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="19.4818" y="10.9982" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="21.971" y="12.192" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R2" library="SparkFun" package="0603-RES" value="10k" x="1.905" y="6.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="1.016" y="5.207" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="1.016" y="5.207" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="3.048" y="5.334" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R3" library="SparkFun" package="0603-RES" value="NL" x="-20.955" y="8.89" smashed="yes" rot="R90">
-<attribute name="NAME" x="-21.7932" y="8.5598" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="-21.7932" y="8.5598" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="-19.812" y="7.874" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R1" library="SparkFun" package="0603-RES" value="1k" x="2.667" y="11.43" smashed="yes" rot="R180">
-<attribute name="NAME" x="3.7846" y="10.6172" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="3.7846" y="10.6172" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="3.683" y="12.573" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R4" library="SparkFun" package="0603-RES" value="10k" x="15.24" y="6.985" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.0782" y="7.5946" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="16.0782" y="7.5946" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="14.097" y="8.001" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0603-RES" value="100R" x="17.78" y="20.193" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.5326" y="18.8214" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="19.5326" y="19.4564" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="16.637" y="21.209" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="S1" library="150308-1-eRIC-Nitro" package="TACTILE-SWITCH-SMD-ALT04" value="Reset" x="1.524" y="18.415" smashed="yes" rot="R270">
-<attribute name="NAME" x="0.7874" y="14.4018" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="0.7874" y="14.4018" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="-0.508" y="19.304" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="LOGO1" library="SparkFun" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="-10.922" y="6.731" smashed="yes" rot="MR0"/>
 <element name="IC1" library="SparkFun" package="TQFP32-08" value="ATmega328P-AU" x="10.16" y="12.065" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.383" y="18.034" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="16.383" y="18.034" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="3.809996875" y="14.605" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="IC2" library="SparkFun" package="SOT23-5" value="MIC5205-3.3" x="24.13" y="7.62" smashed="yes" rot="R90">
+<element name="IC2" library="150308-1-eRIC-Nitro" package="SOT23-5" value="MIC5205-3.3" x="24.13" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.8186" y="7.1628" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="24.3205" y="6.6675" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="D3" library="150308-1-eRIC-Nitro" package="SOD-523" value="RB751" x="26.797" y="9.652" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="DIO-11018" x="26.797" y="9.652" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
-<attribute name="NAME" x="26.416" y="8.636" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="26.416" y="8.636" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="24.257" y="10.922" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="LOGO2" library="150308-1-eRIC-Nitro" package="ELPP-LOGO-ELEKTOR-LABS-25MM" value="LOGO-ELEKTOR-LABS-25MM" x="-8.509" y="19.685" rot="MR0"/>
 <element name="LOGO3" library="_Elektor2a" package="LOGO-REMOTE-SENSORS2" value="LOGO-REMOTE-SENSORS-17MM" x="12.954" y="7.112" rot="MR0"/>
 <element name="S2" library="150308-1-eRIC-Nitro" package="AYZ0203" value="" x="23.495" y="16.764" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.7048" y="15.7466" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="25.7048" y="15.7466" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="22.479" y="11.2" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 </elements>
@@ -3557,8 +3555,8 @@ Your Eurocircuits Team
 <approved hash="18,29,36805e8a27854f8f"/>
 <approved hash="4,1,e67a6d2c9b9de894"/>
 <approved hash="4,1,4408af8324624349"/>
-<approved hash="4,1,fd4c6fac98d5c146"/>
 <approved hash="4,1,f2e36c1c9b15fd3f"/>
+<approved hash="4,1,fd4c6fac98d5c146"/>
 <approved hash="4,16,e67a6d2c9b9de894"/>
 <approved hash="4,16,4408af8324624349"/>
 <approved hash="4,16,fd4c6fac98d5c146"/>
