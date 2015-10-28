@@ -16,6 +16,8 @@ The board offers several operating modes:
 Note that eRIC modules can function fully stand-alone, without any help from a
 microcontroller. This board can handle that too.
 
+The board is included in the Elektor Arduino Boards Package available at https://github.com/ElektorLabs/Arduino/
+
 www.elektor-labs.com/eric-nitro
 
 www.elektor.com
